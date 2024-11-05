@@ -148,6 +148,7 @@
 				DEVELOPMENT_TEAM = 68B4J5F23V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppleLocationCrash/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For navigation.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -171,11 +172,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68B4J5F23V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppleLocationCrash/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For navigation.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,6 +191,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kakaomobility.AppleLocationCrash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
